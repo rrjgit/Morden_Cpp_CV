@@ -24,5 +24,5 @@ grep -o "mol" data.dat | wc -m
 
 # 5. Count how many files in "test_folder" are ".txt" files
 echo Count how many files in "test_folder" are ".txt" files...
-find ../data/test_folder -name *.txt  | wc -l
+find ../data/test_folder -name *.txt | wc -l
 
