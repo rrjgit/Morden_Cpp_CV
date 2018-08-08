@@ -6,7 +6,7 @@ class Hmm
 {
  public:
 
-	Hmm(int a): num{a} { cout << "default" << endl; }
+	Hmm(int a): num_{a} { cout << "default" << endl; }
 
 	Hmm(const Hmm& other) { cout << "copy" << endl; }
 
@@ -26,7 +26,7 @@ class Hmm
 
 
  private: 
- 	int num = 10;
+ 	int num_ = 10; // private variable should be named as NAME_
 
 
 
